@@ -2,8 +2,7 @@
 
 #### Dependencies and requirements
 
-This component only works with React Router 4 and it probably doesn't work correctly
-with Webpack 1, so use Webpack 2.
+This component only works with React Router 4 and Webpack 2 (because of System.import).
 
 #### Usage
 

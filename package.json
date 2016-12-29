@@ -1,6 +1,6 @@
 {
   "name": "lazy-route",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lazy / async route loading for React Router 4",
   "main": "./lib/index.js",
   "scripts": {
