@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git remote add origin https://github.com/mhaagens/lazy-route.git"
+    "url": "git+https://github.com/mhaagens/lazy-route.git"
   },
   "keywords": [
     "react-router",
