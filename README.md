@@ -8,7 +8,7 @@ This component only works with React Router 4 and Webpack 2 (because of System.i
 
 ```javascript
 import {Match} from 'react-router'
-import LazyRoute from 'lazyroute'
+import LazyRoute from 'lazy-route'
 
 <Match 
   pattern="/myroute"
