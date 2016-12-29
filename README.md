@@ -12,7 +12,7 @@ import LazyRoute from 'lazy-route'
 
 <Match 
   pattern="/myroute"
-  render={(props) => <LazyRoute {...props} component={System.import('./myComponent')} />}
+  render={(props) => <LazyRoute {...props} component={import('./myComponent')} />}
 />
 ```
 

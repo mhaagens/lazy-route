@@ -11,7 +11,7 @@ class App extends Component {
 				<BrowserRouter>
 					<Match 
 					pattern="/"
-					render={(props) => <LazyRoute {...props} component={System.import('./testComponent')} />}
+					render={(props) => <LazyRoute {...props} component={import('./testComponent')} />}
 					/>
 				</BrowserRouter>
 			</div>

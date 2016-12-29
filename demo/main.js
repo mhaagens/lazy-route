@@ -10089,7 +10089,7 @@ exports.default = MatchProvider;
 
 exports.__esModule = true;
 
-var _pathToRegexp = __webpack_require__(115);
+var _pathToRegexp = __webpack_require__(114);
 
 var _pathToRegexp2 = _interopRequireDefault(_pathToRegexp);
 
@@ -12182,18 +12182,9 @@ exports.default = createMemoryHistory;
 
 /***/ },
 /* 114 */
-/***/ function(module, exports) {
-
-module.exports = Array.isArray || function (arr) {
-  return Object.prototype.toString.call(arr) == '[object Array]';
-};
-
-
-/***/ },
-/* 115 */
 /***/ function(module, exports, __webpack_require__) {
 
-var isarray = __webpack_require__(114)
+var isarray = __webpack_require__(115)
 
 /**
  * Expose `pathToRegexp`.
@@ -12619,6 +12610,15 @@ function pathToRegexp (path, keys, options) {
 
   return stringToRegexp(/** @type {string} */ (path), /** @type {!Array} */ (keys), options)
 }
+
+
+/***/ },
+/* 115 */
+/***/ function(module, exports) {
+
+module.exports = Array.isArray || function (arr) {
+  return Object.prototype.toString.call(arr) == '[object Array]';
+};
 
 
 /***/ },

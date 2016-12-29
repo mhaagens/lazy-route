@@ -33,5 +33,10 @@
     "babel-preset-stage-0": "^6.16.0",
     "babel-register": "^6.18.0",
     "webpack": "^2.2.0-rc.3"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-router": "^4.0.0-alpha.6"
   }
 }
