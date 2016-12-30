@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-export default class AsyncRoute extends Component {
+export default class LazyRoute extends Component {
 	constructor(props) {
 		super(props)
 		this.state = {
